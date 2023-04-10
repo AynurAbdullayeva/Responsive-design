@@ -1,0 +1,176 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+.navbar_links {
+    display: flex;
+
+}
+
+.navbar_links li a {
+    margin-left: 15px;
+    color: gray;
+    padding: 5px 15px;
+    transition: all .5s ease-in-out;
+}
+
+.navbar_links li a:hover {
+    color: green;
+}
+
+.logo h2 a {
+    color: green;
+    text-transform: uppercase;
+}
+
+ul li a button {
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+ul li a button:hover {
+    background-color: rgb(9, 73, 9);
+}
+
+.bars {
+    color: gray;
+    line-height: 10px;
+    cursor: pointer;
+}
+
+.box {
+    width: 100%;
+    height: 70vh;
+    padding: 0;
+    margin: 0;
+    background-image: url(https://students.tafesa.edu.au/images/default-source/support/wellbeing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+position: relative;
+   filter: brightness(60%);
+}
+.box .text1{
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    font-size: x-large;
+color: white;
+}
+#btn2 {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 0.5s;
+   
+}
+#btn2:hover {
+    background-color: rgb(40, 206, 40);
+    border-color: rgb(40, 206, 40);
+}
+.fa-regular.fa-circle-check{
+    color: green;
+}
+
+.text2{
+margin-right: 20%;
+margin-left: 10%;
+font-size: large;
+align-self: center;
+    
+}
+.image2{
+width: 40%;
+height: 40px;
+margin-right: 20%;
+align-self: center;
+}
+
+
+
+
+
+
+
+
+
+#main_part{
+    border: 1px solid black;
+    display: flex;
+    width: 800px;
+    height: 400px;
+    flex-direction: row;
+    align-items: center;
+justify-content: center;
+top: 10%;
+    
+}
+.inner_part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: gray;
+}
+.child_part {
+    justify-content: start;
+}
+.child_part img{
+    width: 100px;
+    height: 100px
+}
+@media screen and (max-width:768px){
+    .header{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    .header{
+        width: 100%;
+    }
+    .main{
+        width: 100%;
+    }
+}
